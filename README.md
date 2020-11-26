@@ -1,3 +1,16 @@
+to create new metadata
+
+cd scripts
+swift metadatGenerator.swift
+
+copy the 3 files in scripts/generatedJSON into generatedJSON in upper folder
+cd libphoneNumber
+./GeneratePhoneNumberHeader.sh
+
+commit and push
+update the commit version in the podfile
+
+
 [![CocoaPods](https://img.shields.io/cocoapods/p/libPhoneNumber-iOS.svg?style=flat)](http://cocoapods.org/?q=libPhoneNumber-iOS)
 [![CocoaPods](https://img.shields.io/cocoapods/v/libPhoneNumber-iOS.svg?style=flat)](http://cocoapods.org/?q=libPhoneNumber-iOS)
 [![Travis](https://travis-ci.org/iziz/libPhoneNumber-iOS.svg?branch=master)](https://travis-ci.org/iziz/libPhoneNumber-iOS)
